@@ -12,8 +12,6 @@ import jQuery    from "jquery"
 window.$ = window.jQuery = jQuery
 
 const history = createHistory();
-const cors = require('cors');
-App.use(cors());
 
 ReactDOM.render(
     <Provider store={STORE}>
