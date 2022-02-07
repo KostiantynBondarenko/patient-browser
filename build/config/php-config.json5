@@ -13,12 +13,7 @@
         // The pre-populated tags in the tag selector
         tags: [
             // we don't know this yet
-        ],
-
-        // The mediacal conditions available on this server
-        conditions: {
-            // we don't know this yet
-        }
+        ]
     },
 
     // Records per page
