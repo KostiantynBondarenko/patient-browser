@@ -7,7 +7,7 @@
 
         // headers
         headers: {
-            Authorization: "Bearer eyJraWQiOiJxZG9rWXVIZ3Yxa3VNV2ZaWHhUOFhcL3g0YVdJVnhYRDBqMXlMcVwvVXNzM2c9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI0Nm1haGhtZWNqMzlqamN1NjA4Z2s2OWNkNCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoicGhwX2NsaWVudFwvcmVzb3VyY2UucG9wdWxhdGUgcGhwX2NsaWVudFwvcmVzb3VyY2UucmVhZCBwaHBfY2xpZW50XC9yZXNvdXJjZS53cml0ZSIsImF1dGhfdGltZSI6MTY0MjE2ODY5MSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfV3M5VTEzU3plIiwiZXhwIjoxNjQyMTcyMjkxLCJpYXQiOjE2NDIxNjg2OTEsInZlcnNpb24iOjIsImp0aSI6ImQzYTJhOWI3LTQ3ODAtNDkxNC1iZTE5LWEyODVlZDAzMjI1NyIsImNsaWVudF9pZCI6IjQ2bWFoaG1lY2ozOWpqY3U2MDhnazY5Y2Q0In0.h6aT9o-Ov7G-l_ue06B7Uzb1kIQbaloJJzy21EvfxbYt02aOLmKnBbrYnQLr7MCWrrfyW9He4ljjoXRbx0mfq45R7N7QEL02Qbazs2SrR5mq_-9udDIWx0BRmbPEK-kGMNxuRN3gW-aKebdvJyECNyvkGXFGWU9lscPuelEMokD41bOXYDJ49-ZpWbpHfYlxZ6vbl3RMnkc3KseyO0p5tw2tUbBjOX-7xy-tItqyBBSYOkz5NSTnDjf-6b1uLfYj1_Ab1ql3d_cZWkthXro71InamIagfwBroN3bAJXxAqadQcfhZ5iEpZTOS7J8RbiPSmYfoIkldDd5NLIdCdQlzw"
+            Authorization: "Bearer eyJraWQiOiJxZG9rWXVIZ3Yxa3VNV2ZaWHhUOFhcL3g0YVdJVnhYRDBqMXlMcVwvVXNzM2c9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI0Nm1haGhtZWNqMzlqamN1NjA4Z2s2OWNkNCIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoicGhwX2NsaWVudFwvcmVzb3VyY2UucG9wdWxhdGUgcGhwX2NsaWVudFwvcmVzb3VyY2UucmVhZCBwaHBfY2xpZW50XC9yZXNvdXJjZS53cml0ZSIsImF1dGhfdGltZSI6MTY0NDIyNzYxOCwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfV3M5VTEzU3plIiwiZXhwIjoxNjQ0MjMxMjE4LCJpYXQiOjE2NDQyMjc2MTgsInZlcnNpb24iOjIsImp0aSI6ImFmODE4ZmFjLTA5MDUtNDI1MS1iNjNmLTI2NDc2NDhmNjAxOCIsImNsaWVudF9pZCI6IjQ2bWFoaG1lY2ozOWpqY3U2MDhnazY5Y2Q0In0.kqqBJRqvD0jhOrk7scbWz2-Vz-3VbjcR0Mfrt-34INwT1ZivbJDAMB1alflkEBJteU06XlBBV5xq1uJ133qjQyHXBBTOvbOeVp69C2F-wLaDpH_ppglw1cELkUEzJEtn1FcmQnoPkqiJtrWWKtI2FF5synOkY4YVRkkK1m23gwjHaYKKxvqUJ8LvX6T1-ZDd1Fr_QTdoJ9gIQam8iHDeqNXW6_-qpofPrQ5sB-ICv2xdhMZIWBOy4bnKmXFc_d81ZpC_dWC23etsKvnltUmaNKlS3t4BLpGbmZQqlI4nfFknB4swBroiKASLrenKsUFwnFa5Cgq4xfGai5pfKVBs8Q"
         },
 
         // The pre-populated tags in the tag selector
@@ -36,7 +36,7 @@
     // patient-related resources in detail view will open their source in that
     // external viewer. Otherwise they will just be opened in new browser tab.
     fhirViewer: {
-        enabled: true,
+        enabled: false,
         url    : "http://docs.smarthealthit.org/fhir-viewer/index.html",
         param  : "url"
     },
